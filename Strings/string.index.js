@@ -26,3 +26,6 @@ console.log(`N is in the ${nPosition} position`);
 // If the character is not found, indexOf() returns -1
 zPosition = text.indexOf("z");
 console.log(`z is in the ${zPosition} position`);
+
+console.log(text.charCodeAt(0)); //78 | 65+13
+console.log(String.fromCharCode(66));
